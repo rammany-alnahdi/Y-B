@@ -24,7 +24,12 @@ Standard Unity camera parenting causes the camera to spin wildly when attached t
 * **Axis Isolation:** The camera strictly follows the player's `X` and `Z` coordinates but actively strips out the player's rotational data. 
 * **Fixed Offset:** By storing a public `Vector3 movecam` offset, the camera maintains a perfect isometric/trailing perspective, keeping both spheres in frame regardless of how fast they are rolling or bouncing.
 
-### 3. Level Progression State Machine
+### 3. Stereophonic Audio Feedback (The "Two-Voice" System)
+To reinforce the left-hand/right-hand brain split, the game utilizes a spatial audio system to give each sphere its own distinct "voice" or acoustic signature.
+* **Stereo Panning (`AudioSource.panStereo`):** The left sphere's audio source is hard-panned to the left audio channel (-1), and the right sphere is panned to the right (1). This provides subconscious, directional acoustic feedback to the player.
+* **Pitch Shifting:** By slightly offsetting the `AudioSource.pitch` of the jump and impact sound effects, the player can immediately identify which sphere triggered the physics event without needing to look directly at it, reducing cognitive overload.
+
+### 4. Level Progression State Machine
 The game scales through 11 distinct levels. The architecture supports rapid scene loading, maintaining the persistent physics logic while iterating on environmental complexity, obstacle timing, and required jump precision.
 
 ---
