@@ -1,12 +1,12 @@
 # Dual-Sphere Physics Platformer | Unity 3D Coordination Engine
 
 <p align="center">
-  <img src="level-1.png" width="32%" alt="Level 1" />
-  <img src="level-2.png" width="32%" alt="Level 2" />
-  <img src="level-3.png" width="32%" alt="Level 3" />
-  <img src="level-4.png" width="32%" alt="Level 4" />
-  <img src="level-5.png" width="32%" alt="Level 5" />
-  <img src="level-11.png" width="32%" alt="Level 11" />
+  <img src="level-1.png" width="50%" alt="Level 1" />
+  <img src="level-2.png" width="50%" alt="Level 2" />
+  <img src="level-3.png" width="50%" alt="Level 3" />
+  <img src="level-4.png" width="50%" alt="Level 4" />
+  <img src="level-5.png" width="50%" alt="Level 5" />
+  <img src="level-11.png" width="50%" alt="Level 11" />
 </p>
 
 A custom-built, physics-based 3D platformer developed in the Unity Engine. This project challenges player neuroplasticity and hand-eye coordination by requiring simultaneous, independent control of two distinct physical spheres across 11 progressively difficult levels. 
