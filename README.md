@@ -44,5 +44,6 @@ The core gameplay loop requires the player to mentally separate their left and r
 To play the compiled build or explore the source code:
 
 1. Clone this repository to your local machine.
-2. Open the project folder using **Unity Hub** (Ensure you have the compatible Unity Editor version installed).
-3. Open the `Scenes` folder and load `Level_1.unity` to begin gameplay or test the physics parameters in the Inspector.
+2. Open the project folder using **Unity Hub** (Ensure you have a compatible Unity Editor version installed).
+3. Open the `Scenes` folder and load the `Menu.unity` scene to access the main title screen and level selector.
+4. Press **Play** in the editor to navigate the UI and launch into the game organically!
